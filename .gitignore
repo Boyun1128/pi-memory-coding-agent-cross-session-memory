@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test / hypothesis cache
+.pytest_cache/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+
+# Memory runtime files (do not commit)
+.pi-memory.json
+memory.json
+*.tmp
+
+# Secrets
+.env
+*.env
+
+# Editor
+.vscode/
+.idea/
+
+# Starter folder (should not be committed)
+AIASE2026-HW4-starter/
+
+# Local model config (contains no secrets but not needed in repo)
+models.json

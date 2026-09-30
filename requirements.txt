@@ -1,0 +1,9 @@
+# Core test dependencies
+pytest==8.3.5
+hypothesis==6.131.10
+
+# Hybrid retrieval (Task 2 advanced feature)
+# CPU-only torch keeps install size manageable on systems without CUDA
+sentence-transformers==3.4.1
+torch==2.6.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
